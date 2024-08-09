@@ -1,0 +1,35 @@
+/* styles.css */
+body {
+    background-color: orange;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, p {
+    color: black;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-top: 50px;
+}
+
+/* Keyframes for fade-in effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply the fade-in animation to elements */
+.fade-in {
+    animation: fadeIn 2s ease-in-out;
+}
